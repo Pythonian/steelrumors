@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2><a href="{{ link.url }}">{{ link.title }}</a></h2>
+<p>Submitted by {{ link.submitter }}</p>
+<p>{{ link.description }}</p>
+{% endblock %}
